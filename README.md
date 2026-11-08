@@ -94,15 +94,3 @@ Android Studio > **Run > Run 'All Tests'** ya da komut satırı: `./gradlew test
 | Akıcı liste ve UI | `LazyColumn`, stabil key'ler, main thread dışı hesap |
 | 10 cihaz ve verilmiş özellikler | `seedDevices()` |
 
-**Performans notu:** 120 FPS ifadesi bir performans hedefidir; ekran tazeleme hızı ve gerçek cihaz/emülatör performansına bağlıdır. Bir Kotlin/Compose projesi herhangi bir cihazda sabit 120 FPS garantisi veremez.
-
-## GitHub ve teslim
-
-1. Kendi GitHub hesabınızda **Public** ve **week3_assignment** adlı depo oluşturun.
-2. Projenin kökündeki dosyaları ( `app/`, `gradle/`, `build.gradle.kts`, `settings.gradle.kts`, `README.md`, `gradlew`, `gradlew.bat` vb.) yükleyin; `build/`, `.gradle/`, `local.properties` gibi yerel dosyaları yüklemeyin.
-3. Emülatörde **ilk ekran**, **Salon filtresi**, **arama sonucu** ve **bir cihazı açtıktan sonraki enerji toplamı** için gerçek ekran görüntüleri alın.
-4. `TESLIM_PDF_OLUSTUR.html` dosyasını tarayıcıda açın; GitHub bağlantısını ve gerçek uygulama ekran görüntülerini ekleyin; **PDF olarak kaydet** düğmesini kullanın. Alternatif ayrıntılar `TESLIM_REHBERI.md` içindedir.
-
-<!-- Ödev deposu kişisel hesaptan Public olarak yayımlanmalıdır. -->
-
-**Gradle Wrapper notu:** Projede `gradlew` ve `gradlew.bat` için Java 17 tabanlı hafif bir indirme/çalıştırma önyükleyicisi bulunur; standart Gradle dağıtımı resmi `services.gradle.org` adresinden alınır. Android Studio Gradle ayarlarını `gradle/wrapper/gradle-wrapper.properties` dosyasından okuyarak senkronize eder.
