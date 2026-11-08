@@ -4,8 +4,6 @@
 
 Evin içindeki 10 cihazı odalarına göre filtreleyen, cihaz adını aratan, cihazları açıp kapatan ve **yalnızca açık + çevrimiçi cihazların anlık watt değerlerini** üstte reaktif olarak gösteren Android uygulaması.
 
-> **Not:** Veri kaynağı dersin PDF'indeki 10 örnek cihazdan oluşan yerel bellektir. Gerçek IoT cihazına bağlanma, sunucu, internete erişim veya kalıcı depolama ödevin kapsamında değildir. Uygulama yeniden açıldığında örnek durumlar sıfırlanır.
-
 ## Hızlı başlangıç
 
 1. ZIP dosyasını çıkarın. Android Studio'da **File > Open** ile içindeki `week3_assignment` klasörünü seçin. `app` alt klasörünü ayrıca açmayın.
